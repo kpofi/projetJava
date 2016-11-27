@@ -1,0 +1,29 @@
+Ensimag 2A POO - TP 2016/17
+============================
+
+Pour compiler faire 'make resolution'
+et l'execution se fait avec la commande 'make exeResolution'
+
+la resolution est effectuée avec la carte 'desertOfDeath-20x20'
+
+
+
+- src: contient les packages suivants :
+  -> chemins : regroupe les classes permettant le calcul du plus court chemin
+  -> commandant : contient la classe ChefPompier qui gère l'extinction des incendies
+  -> elements : elements de base de la carte
+  -> events : l'ensemble des evenements
+  -> io : lecteur et créateur de données
+  -> robots : differents types de robots
+  -> simulation : contient le simulateur
+  -> tests : ensemble des tests intermediaires
+
+- images : contenant les images
+
+- cartes: quelques exemples de fichiers de donnees
+
+- bin/gui.jar: archive Java contenant les classes de l'interface graphique. Voir un exemple d'utilisation dans TestInvader.java
+
+- doc: la documentation (API) des classes de l'interface graphique contenues dans gui.jar. Point d'entrée: index.html
+
+- Makefile: quelques explications sur la compilation en ligne, notamment la notion de classpath et l'utilisation de gui.jar
